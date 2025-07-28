@@ -1,13 +1,12 @@
-// app/layout.js
 export const metadata = {
-  title: 'Emirates Flight Dashboard',
-  description: 'Live flight information for Emirates Airlines',
+  title: "Emirates Dashboard",
+  description: "Live Flight Info",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body style={{ margin: 0, fontFamily: "Arial, sans-serif" }}>{children}</body>
     </html>
   );
 }
